@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: linear-gradient(to right, #A28567, #CA8567);
+    font-family: 'Roboto', sans-serif;
+}
+
+.kotak{
+    width: 400px;
+    height: 50px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.kotak:hover{
+    background-color: rgba(255, 158, 126, 0.46);
+}
+
+.header{
+    text-align: center;
+    font-size: 35px;
+}
+
+.header img{
+    width: 150px;
+    border-radius:20%;
+    margin-top: 45px;
+}
+
+.pembuka{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.0);
+}
