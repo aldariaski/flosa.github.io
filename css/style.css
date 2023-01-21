@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background: linear-gradient(to right, #A28567, #CA8567);
+    background: #A28567;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -40,9 +40,10 @@ body{
 
 .pembuka{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .footer{
