@@ -22,11 +22,14 @@ body{
     margin-bottom: 10px;
     top: 50%;
     left: 50%;
+    border-width: 0;
+    border-radius: 25px;
+    background-color: #42392d;
 
 }
 
 .kotak:hover{
-    background-color: rgba(255, 158, 126, 0.46);
+    background-color: rgba(204, 181, 157, 0.46);
 }
 
 .header{
