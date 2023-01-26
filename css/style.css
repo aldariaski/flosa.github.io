@@ -7,7 +7,7 @@ body{
 }
 
 .kotak{
-    width: 80%;
+    width: 45%;
     max-width: 500px;
     min-height: 50px;
     border: solid 3px;
@@ -18,15 +18,14 @@ body{
 
     padding-top: 10px;
     display: block;
-    font-size: 150%; /*4.8%*/
+    font-size: 111%; /*4.8%*/
     max-font-size: 30px;
 
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
 
-    top: 50%;
-    left: 50%;
+    vertical-align: middle;
     border-width: 0;
 
     border-radius: 25px;
