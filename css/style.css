@@ -24,7 +24,7 @@ body{
     margin-right: auto;
     text-align: center;
 
-    padding-top: 10px;
+    padding-top: 25px;
     display: block;
     font-size: 111%; /*4.8%*/
     max-font-size: 30px;
@@ -33,6 +33,12 @@ body{
     border-width: 0;
     border-radius: 25px;
     background-color: #42392d;
+
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
