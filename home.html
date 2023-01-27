@@ -19,10 +19,11 @@
         <a class="bulat1" href="https://instagram.com/flosa.co" target="_blank"><span><i class="fa-brands fa-instagram"></i></span></a>
         <a class="bulat1" href="https://www.tiktok.com/@flosa.co/" target="_blank"><span><i class="fa-brands fa-tiktok"></i></span></a>
         <a class="bulat1" href="https://wa.me/+6281323938898" target="_blank"><span><i class="fa-brands fa-whatsapp"></i></span></a>
+        <a class="bulat1" onclick="copyText()"><i class="fa-light fa-copy"></i></a>
     </div>
 
     <div class="pembuka"> <i class="fa-regular fa-signs-post"></i> Lokasi<br>
-        <a href="https://goo.gl/maps/FvtDWznJutgSw1VR9" style="color: #42392d;" target="_blank"><i class="fa-regular fa-city"></i></a> Yogyakarta</div>
+        <a href="https://goo.gl/maps/zg63BPhAJhKESiyu5" style="color: #42392d;" target="_blank"><i class="fa-regular fa-city"></i></a> Yogyakarta</div>
 
     <div class="pembuka" style="margin-top: 30px;"> <i class="fa-regular fa-bags-shopping"></i> Store Universitas Ahmad Dahlan </div>
     <a class="kotak" href="https://wa.me/+6281323938898" target="_blank"><span><i class="fa-brands fa-whatsapp"></i> WhatsApp</span></a>
@@ -39,5 +40,16 @@
     <div class="footer">
         <p>&copy; Flosa 2018 -<script>document.write(/\d{4}/.exec(Date())[0])</script></p>
     </div>
+
+
+<script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                (window.location.href);
+            alert("Link tersalin");
+        }
+    </script>
 </body>
 </html>

@@ -60,6 +60,10 @@ span {
 
 }
 
+.bulat1:hover{
+    background-color: rgba(204, 181, 157, 0.46);
+}
+
 .kotak{
     width: 45%;
     max-width: 500px;
